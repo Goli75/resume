@@ -15,10 +15,12 @@ h1 {
   font-size: 46px;
   text-align: center;
   font-weight: 900;
+  color: var(--secondry-color);
 }
 h2 {
     font-size: 24px;
     text-align: center;
+    color: var(--secondry-color);
 }
 img {
     width: 1000px;
@@ -26,11 +28,12 @@ img {
  li {
      list-style: none;
      font-size: 24px;
-     color: var(--secondry-color);
+     line-height: 2;
  }
 h3 {
     text-align: center;
     color: var(--branding-color);
+    font-weight: 800;
 }
 p {
     font-size: 24px;
@@ -39,14 +42,15 @@ p {
 background: var(--branding-color);
 color: white;
 transition: all 150ms ease-in-out;
-border-radius: 5px;
-display:block;
-margin:  auto; 
+border-radius: 5px; 
+padding: 10px 30px;
+line-height: 27px;
+}
+.btn:hover {
+    color: var(--branding-color);
+    background: white;
+    border-color: var(--branding-color);
 }
 .social-links a {
     font-size: 30px;
-}
-.btn-contact a:hover {
-    color: var(--branding-color);
-    background: white;
 }
