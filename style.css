@@ -1,0 +1,26 @@
+body {
+    font-family: 'Lobster', cursive;
+font-family: 'Nunito', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Zilla Slab', serif;
+}
+
+
+h1 {
+  font-size: 46px;
+  text-align: center;
+  font-weight: 900;
+}
+h2 {
+    font-size: 24px;
+    text-align: center;
+}
+img {
+    width: 1000px;
+}
+ li {
+     list-style: none;
+     font-size: 20px;
+     color:rgb(7, 7, 56);
+ }
