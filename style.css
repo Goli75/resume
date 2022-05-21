@@ -54,3 +54,26 @@ line-height: 27px;
 .social-links a {
     font-size: 30px;
 }
+
+nav {
+    padding: 20px 0;
+    font-size: 24px;;
+    background: gainsboro;
+}
+nav li {
+    list-style: none;
+    display: inline;
+    line-height: 42px;}
+nav a { 
+    text-decoration: none; 
+    margin-left: 20px;
+    transition: all 100ms ease-in-out;
+}
+nav a:hover,
+nav li.active a {
+    color: var(--branding-color);
+}
+nav ul {
+    margin: 0;
+    padding: 0;
+}
