@@ -76,3 +76,10 @@ nav ul {
     margin: 0;
     padding: 0;
 }
+div lable {
+    margin-bottom: 5px;
+    color: var(--secondry-color);
+}
+form input {
+    padding: 5px;
+}

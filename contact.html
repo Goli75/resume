@@ -28,23 +28,36 @@
 </nav>
 </div>
 <form>
- <div class="ml-20"> <span class="mr-10">first name:</span>
-      <input type="text" placeholder="Enter your name ..." clsss=" mr-10"/> <span class="mr-10">  last name:</span>   
-      <input type="text" placeholder="Enter your last name ..." clsss=" mr-10" /></div>
-      <span class="ml-20 mt-5">  Email Address  <input type="text" class="mt-5" placeholder="Enter your email address ..." /> </span>
- <div class="my-10">
-     <span>
-         Message: 
-     </span>
-     <input type="text" class="form-control"/>
- </div>
- <div class="mt-10 mb-10"> 
-    <span>
-        Additional Details: 
-    </span>
-    <input type="text" class="form-control"/>
+ <div class="container">
+    <div class="row d-flex justify-content-evenly">
+       
+            <div class="col-md-6 ">
+                <lable for="first-name" class="d-block">First Name:</lable>
+                <input type="text" id="first-name" placeholder="Enter your name" autocomplete="on" /> 
+                <div class="col-md-6 ">
+                <lable for="last-name" class="d-block">Last Name:</lable>
+                <input type="text" id="last-name" placeholder="Enter your last name" autocomplete="on" /> 
+
+            </div>
+        
+        </div>
+    </div>
+            <div class="col-md-3">
+            <lable for="email" class="d-block">Email Address:</lable>
+            <input type="email" id="email" placeholder="name@example.com" autocomplete="on" /> 
+        <div class="col-md-6">
+            <lable for="message" class="d-block">Message:</lable>  
+            <input type="text" placeholder="Enter your message..." id="message" autocomplete="off"/>
+        </div>
+        <div class="col-md-6">
+            <lable for="aditional" class="d-block"> Additional message:</lable>  
+            <input type="text" placeholder="Enter something..."  id="aditional" autocomplete="off" class="form-control"/>
+        </div>
+
+
+
 </div>
-  </form>
+</form>  
   <a href="" class="btn btn-primary" text-center> submit</a>
 </body>
 </html>
