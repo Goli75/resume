@@ -76,10 +76,14 @@ nav ul {
     margin: 0;
     padding: 0;
 }
-div lable {
+form div .lable {
     margin-bottom: 5px;
     color: var(--secondry-color);
+    margin-left: 12px;
 }
-form input {
-    padding: 5px;
+form input, textarea {
+    padding: 3px;
+    margin-left: 10px;
 }
+footer .btn-primary {
+  margin-left: 12px;}

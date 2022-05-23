@@ -28,35 +28,34 @@
 </nav>
 </div>
 <form>
- <div class="container">
+ <div class="container-form">
     <div class="row">
-       
-            <div class="col-md-6 ">
-                <lable for="first-name" class="d-block" >First Name:</lable>
-                <input type="text" id="first-name" placeholder="Enter your name" autocomplete="on" /> 
-                <div class="col-md-6">
-                <lable for="last-name" class="d-block" >Last Name:</lable>
-                <input type="text" id="last-name" placeholder="Enter your last name" autocomplete="on" /> 
-
-            </div>
-        
-     
+        <div class="col-7">
+            <lable for="first-name" class="lable d-block"> First Name:</lable>
+            <input type="text" id="first-name" placeholder="Enter your fisrt name..." autocomplete="on" />
+         </div>
+         <div class="col-5 ">
+            <lable for="last-name" class="lable-name d-block ps-2 "> Last Name:</lable>
+            <input type="text" id="last-name" placeholder="Enter your last name..." autocomplete="on" class="ps-10"/>
+         </div>
     </div>
-            <div class="col-md-4">
-            <lable for="email" class="d-block">Email Address:</lable>
-            <input type="email" id="email" placeholder="name@example.com" autocomplete="on" /> 
-        <div class="col-md-6">
-            <lable for="message" class="d-block">Message:</lable>  
-            <input type="text" placeholder="Enter your message..." id="message" autocomplete="off"/>
-        </div>
-        <div class="col-md-6">
-            <lable for="aditional" class="d-block"> Additional message:</lable>  
-            <input type="text" placeholder="Enter something..."  id="aditional" autocomplete="off" class="form-control"/>
-        </div>
-</div>
+       <div class="col-sm-9 mb-2">
+        <lable for="email" class="lable"> Email address:</lable>
+        <input type="text" id="email" placeholder="name@example.com" class="form-control"/>
+       </div>
+       
+       <div class="col-sm-9 mb-2">
+        <lable for="message" class="lable"> Message:</lable>
+        <input type="text" id="message" placeholder="Enter your message" class="form-control" />
+       </div>
+       <div class="col-sm-9 mb-2">
+        <lable for="additional-message" class="lable">Additional Message:</lable>
+        <textarea id="additionl-message" class="form-control" rows="5"></textarea> 
+       </div>
     </div>
 </div>
 </form>  
-  <a href="" class="btn btn-primary "> submit</a>
+<footer>
+  <a href="" class="btn btn-primary "> submit</a></footer>
 </body>
 </html>
