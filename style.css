@@ -77,13 +77,27 @@ nav ul {
     padding: 0;
 }
 form div .lable {
-    margin-bottom: 5px;
     color: var(--secondry-color);
-    margin-left: 12px;
+    margin: 3px auto;
 }
-form input, textarea {
+form input,
+ textarea {
     padding: 3px;
-    margin-left: 10px;
+    display: block;
+    margin: 3px auto;
+
 }
 footer .btn-primary {
-  margin-left: 12px;}
+  margin-left: 12px;
+}
+  
+.container-form {
+max-width: 80%;
+border: 1px solid green;
+display: block;
+margin: 40px auto;
+padding: 20px;
+}
+.name {
+
+}
